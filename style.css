@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url(1.jpg);
+}
+
+.love {
+  background-color: rgba(124, 42, 131, 0.966);
+  width: 95vw;
+  max-width: 340px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-shadow: 0 0 25px rgba(122, 45, 124, 0.856);
+  position: relative;
+}
+
+#cesar {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+button {
+  width: 40vw;
+  max-width: 120px;
+  min-width: 70px;
+  height: 40px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#YES {
+  background-color: #d64dad;
+  box-shadow: 0 0 10px rgba(34, 54, 170, 0.856);
+}
+
+
+
+
+
+@media (max-width: 500px) {
+  .love {
+    max-width: 98vw;
+    padding: 1rem 0.5rem;
+  }
+  button {
+    width: 40vw;
+    max-width: 90px;
+    font-size: 0.95rem;
+  }
+}
